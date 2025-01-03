@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pajule College School - Get in touch for admissions, inquiries, and more.">
+    <meta name="keywords" content="Pajule College School, contact, admissions, inquiries, Uganda, Pajule">
+    <meta name="author" content="Pajule College School">
+    <title>Contact - Pajule College School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .sn{
+            font-weight: bold;
+            font-size: 50px;    
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            box-shadow: 0px 5px 5px;
+            padding: 10px;
+            
+                  
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+        .hero {
+            background: url('contact-banner.jpg') no-repeat center center/cover;
+            height: 50vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: 1s ease-in-out;
+        }
+
+
+
+        .hero:hover{
+        transform:translateY(-10px);
+        filter: contrast(150%);
+    }
+        .hero h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .contact-container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .contact-container h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .contact-details {
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.75rem;
+            background: linear-gradient(to left, #9c23cc, #048ea7);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.9s;
+        }
+        .contact-form button:hover {
+            background: linear-gradient(to left,#048ea7, #9c23cc );
+            transform: translateY(-5px);
+            transition: .4s ease-in-out;
+            
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+
+
+        /*Recent*/
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    background: linear-gradient(to left, #9c23cc, #048ea7) ;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+}
+
+.logo{
+            text-align: left;
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            float: left;
+    
+
+        }
+
+.cu{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-form form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form form {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .contact-form form {
+        padding: 15px;
+    }
+
+    .contact-info h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="Pajule College School.png" height="100px" alt="Pajule College Logo">
+        </div>
+            <h1 class="sn">PAJULE COLLEGE SCHOOL</h1>
+        </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="academics.html">Academics & Sports</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="staffs.html">Staffs</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Get in Touch with Us</h1>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cu">
+                <h1>Contact us</h1>
+                <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+    
+            <section class="contact-form">
+                <form action="#" method="POST">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email Address">
+                    </div>
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+    
+            <section class="contact-info">
+                <h3><strong>Our Address</strong></h3>
+                <p>Pajule College School<br>Pajule Town Council, Pader District, 56789</p>
+                <h4>Phone: <a href="tel:+256764081828">+256764081828</a> | Email:<a href="mailto:pcs@gmail.com">pcs@gmail.com</a></h4>
+                
+                
+            </section>
+        </div>
+    </body>
+    </html>
+    
+    
+
+
+
+    <footer>
+        <p>&copy; 2024 Pajule College School. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

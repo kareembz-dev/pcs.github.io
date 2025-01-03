@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pajule College School - Empowering Future Leaders. Discover our academics, sports, news, staff, and career opportunities.">
+    <meta name="keywords" content="Pajule College School, academics, sports, education, career, Uganda, Pajule">
+    <meta name="author" content="Pajule College School">
+    <title>Pajule College School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to left, #51ff57, #007ce2) ;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+        .hero {
+            background: url('school-campus.jpg') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: 1s ease-in-out;
+        }
+        .hero:hover{
+            transform: translateY(-10px);
+            filter: grayscale(150%) contrast(150%);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            font-family: monotype corsiva;
+        }
+        .sections {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .section {
+            flex: 1 1 300px;
+            background: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: justify;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: .4s ease-in-out;
+        }
+        .section:hover{
+            transform: translateY(5px);
+           background: rgba(226, 226, 226, 0.432);
+
+        }
+        .section h2 {
+            margin-bottom: 1rem;
+            text-align: center;
+            color: transparent ;
+            background: linear-gradient(to left, rgb(21, 161, 255), rgb(234, 4, 255));
+            background-clip: text;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PAJULE COLLEGE SCHOOL</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="academics.html">Academics & Sports</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="staffs.html">Staffs</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Knowlege is Power</h1>
+    </div>
+    <section class="sections">
+    
+        <div class="section">
+            <h2>Values</h2>
+            <p><strong>Integrity:</strong> We uphold honesty, responsibility, and respect in everything we do. <br>
+                <strong>Innovation:</strong> We encourage creativity and embrace new ideas and technologies to enhance the learning experience. <br>
+                <strong>Collaboration:</strong> We believe in the power of teamwork, where teachers, students, and parents work together to achieve common goals. <br>
+                <strong>Respect:</strong> We respect the individuality of each student and foster an environment of kindness, empathy, and understanding.
+                
+            </p>
+        </div>
+        <div class="section">
+            <h2>Our School Community</h2>
+            <p>
+            Our school is more than just a place of learning—it’s a community where every member plays a vital role. Teachers are not just educators, but mentors and role models, guiding students through their educational journey. Parents are active participants in school life, supporting their children’s development and success. Together, we create a strong, supportive foundation for all students.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Facilities</h2>
+            <p>
+            Our state-of-the-art facilities include modern classrooms, science and computer labs, a fully equipped library, and spacious outdoor areas for sports and recreation. We also offer extracurricular programs in arts, music, and sports, helping students explore their passions outside the classroom.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Join Us</h2>
+        <p>
+        We invite you to explore our website and learn more about the programs, services, and opportunities we offer at Pajule College. We are committed to providing the best education and are excited to welcome new students into our community.
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Pajule College School. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

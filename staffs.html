@@ -1,0 +1,314 @@
+<style>
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+            text-align: left;
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            float: left;
+    
+
+        }
+        .sn{
+            font-weight: bold;
+            font-size: 50px;    
+            
+
+
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            box-shadow: 0px 5px 5px;
+            padding: 10px;
+            
+                  
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4CAF50;
+                        
+        }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        header {
+            background: linear-gradient(to left, #9c23cc, #048ea7) ;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }       
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.directors, .staff {
+    margin-bottom: 40px;
+}
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.staff-member {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.staff-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .staff-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .staff-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .staff-grid {
+        grid-template-columns: 1fr; /* One column for small screens */
+    }
+
+    .staff-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Pajule College School.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="Pajule College School.png" height="100px" alt="Pajule College Logo">
+        </div>
+            <h1 class="sn">PAJULE COLLEGE SCHOOL</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="academics.html">Academics & Sports</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News & Events</a></li>
+                <li><a href="staffs.html">Staffs</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    
+
+
+<br>
+    <div class="container">
+        <h1>Meet Our Team</h1>
+
+        <!-- Directors Section -->
+        <section class="directors">
+            <h2>Directors</h2>
+            <div class="staff-grid">
+                <div class="staff-member">
+                    <img src="1.jpg" alt="Director 1" class="staff-photo">
+                    <h3>Director 1</h3>
+                    <p>Chief Executive Officer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="2.jpg" alt="Director 2" class="staff-photo">
+                    <h3>Director 2</h3>
+                    <p>Chief Operations Officer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="3.jpg" alt="Director 3" class="staff-photo">
+                    <h3>Director 3</h3>
+                    <p>Chief Financial Officer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="4.jpg" alt="Director 4" class="staff-photo">
+                    <h3>Director 4</h3>
+                    <p>Chief Marketing Officer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Staff Section -->
+        <section class="staff">
+            <h2>Our Staff</h2>
+            <div class="staff-grid">
+                <div class="staff-member">
+                    <img src="staff1.jpg" alt="Staff 1" class="staff-photo">
+                    <h3>Staff 1</h3>
+                    <p>Senior Developer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff2.jpg" alt="Staff 2" class="staff-photo">
+                    <h3>Staff 2</h3>
+                    <p>Project Manager</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff3.jpg" alt="Staff 3" class="staff-photo">
+                    <h3>Staff 3</h3>
+                    <p>HR Manager</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff4.jpg" alt="Staff 4" class="staff-photo">
+                    <h3>Staff 4</h3>
+                    <p>Content Creator</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff5.jpg" alt="Staff 5" class="staff-photo">
+                    <h3>Staff 5</h3>
+                    <p>Marketing Specialist</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff6.jpg" alt="Staff 6" class="staff-photo">
+                    <h3>Staff 6</h3>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff7.jpg" alt="Staff 7" class="staff-photo">
+                    <h3>Staff 7</h3>
+                    <p>Sales Associate</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff8.jpg" alt="Staff 8" class="staff-photo">
+                    <h3>Staff 8</h3>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff9.jpg" alt="Staff 9" class="staff-photo">
+                    <h3>Staff 9</h3>
+                    <p>Customer Support</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff10.jpg" alt="Staff 10" class="staff-photo">
+                    <h3>Staff 10</h3>
+                    <p>Administrative Assistant</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff11.jpg" alt="Staff 10" class="staff-photo">
+                    <h3>Staff 10</h3>
+                    <p>Administrative Assistant</p>
+                </div>
+                <div class="staff-member">
+                    <img src="staff12.jpg" alt="Staff 10" class="staff-photo">
+                    <h3>Staff 10</h3>
+                    <p>Administrative Assistant</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pajule College School. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
